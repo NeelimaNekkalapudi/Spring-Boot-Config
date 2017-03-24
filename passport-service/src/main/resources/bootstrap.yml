@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: passport-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+server:
+  port: 8003
+
+bookamark-service:
+  ribbon:
+    eureka:
+      enabled: true
